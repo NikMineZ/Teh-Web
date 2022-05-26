@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>GameInfo</title>
+    <link rel="stylesheet" href="../css/games.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../picture/G.png" type="image/x-icon">
 
 </head>
@@ -11,19 +15,19 @@
 <header>
     <p>GameInfo</p>
 </header>
-<nav>
-    <ul>
+<nav class="cont">
+    <ul class="menu">
         <li><a href="../index.html">Домой</a></li>
         <li><a href="#">Список игр</a></li>
         <li><a href="#">Поддержка</a></li>
     </ul>
 </nav>
 
-<section>
+<section class="game">
     <img src="../picture/capsule_616x353.jpg" alt="">
-    <p>TV Thief</p>
-    <a href="https://store.steampowered.com/app/1878220/TV_Thief/"><img src="../picture/w-f3lg-1a-A.jpg" alt=""> </a>
-    <p>Любите ли вы стелс-игры с красивой графикой? Если да,
+    <p class="name">TV Thief</p>
+    <a href="https://store.steampowered.com/app/1878220/TV_Thief/"><img src="../picture/w-f3lg-1a-A.jpg" class="logo" alt=""> </a>
+    <p class="text">Любите ли вы стелс-игры с красивой графикой? Если да,
         то TV Thief точно для вас!<br> В этой игре вам предстоит побыть вором телевизоров,
         и вам нужно будет украсть все телевизоры из домов.<br>
         Сделать это вам могут помешать жильцы этого дома. Не попадитесь к ним на глаза!<br>
@@ -33,12 +37,12 @@
         Украсть телевизоры будет совсем не просто, так как в домах находятся жильцы.<br>
         Если вы попадетесь к ним на глаза, то непременно поедете в тюрьму. Вынесите телевизоры без лишнего внимания!
     </p>
-    <div>
+    <div  id="content">
         <img src="../picture/Tv_1.jpg" alt="">
         <img src="../picture/Tv_2.jpg" alt="">
         <img src="../picture/Tv_3.jpg" alt="">
     </div>
-    <table>
+    <table class="requirements">
         <caption>Системные требования:</caption>
         <tr>
             <td></td>
@@ -72,15 +76,15 @@
         </tr>
     </table>
 </section>
-<div>
+<div class="footer-basic">
     <footer>
-        <ul>
+        <ul class="list-inline">
             <li><a href="#">Домой</a></li>
             <li><a href="#">Сотруднечество</a></li>
             <li><a href="#">О нас</a></li>
             <li><a href="#">Политика конфиденциальности</a></li>
         </ul>
-        <p>Game Info © 2022</p>
+        <p class="copyright">Game Info © 2022</p>
     </footer>
 </div>
 </body>
